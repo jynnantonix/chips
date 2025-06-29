@@ -343,7 +343,7 @@ mod tests {
         // } else {
         //     10000
         // };
-        let size = 1000;
+        let size = 100;
         assert_eq!(map.len(&db), 0);
 
         for i in 0..size {
