@@ -1,6 +1,6 @@
 use salsa::Database;
 
-use crate::critbit::{Key, Value};
+use crate::salsa::{Key, Value};
 
 #[salsa::tracked(debug)]
 pub struct Tree<'db> {

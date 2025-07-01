@@ -1,6 +1,6 @@
 use salsa::Database;
 
-use crate::critbit::{
+use crate::salsa::{
     Key, Map, Value,
     zipper::{Context, Elem, Node, Tree, Zipper},
 };

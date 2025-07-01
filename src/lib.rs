@@ -1,1 +1,1 @@
-pub mod critbit;
+pub mod salsa;
